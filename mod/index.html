@@ -1,0 +1,215 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>mod | 是min_yitian呀</title><meta name="author" content="是min_yitian呀"><meta name="copyright" content="是min_yitian呀"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="忠！诚！ 附魔傀儡  犹意思恶魂  骨神法杖及骨质工具mod获取不要忘了去b站支持up主啊啊！ 模组下载链接：下载  密码 1k5z 模组源码获取：[源码](yi-tian-c&#x2F;yitianQDHmod at master)  注意是master里面的内容，不是main 模组依赖 “fabricloader” : “&gt;&#x3D;0.15.11”,  “minecraft”: “~">
+<meta property="og:type" content="website">
+<meta property="og:title" content="mod">
+<meta property="og:url" content="http://example.com/mod/index.html">
+<meta property="og:site_name" content="是min_yitian呀">
+<meta property="og:description" content="忠！诚！ 附魔傀儡  犹意思恶魂  骨神法杖及骨质工具mod获取不要忘了去b站支持up主啊啊！ 模组下载链接：下载  密码 1k5z 模组源码获取：[源码](yi-tian-c&#x2F;yitianQDHmod at master)  注意是master里面的内容，不是main 模组依赖 “fabricloader” : “&gt;&#x3D;0.15.11”,  “minecraft”: “~">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/418883c358f97fb0a271d11a5172bc58.jpg">
+<meta property="article:published_time" content="2025-04-08T09:22:01.000Z">
+<meta property="article:modified_time" content="2025-04-08T16:31:58.356Z">
+<meta property="article:author" content="是min_yitian呀">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/418883c358f97fb0a271d11a5172bc58.jpg"><link rel="shortcut icon" href="/img/418883c358f97fb0a271d11a5172bc58.jpg"><link rel="canonical" href="http://example.com/mod/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'mod',
+  isHighlightShrink: true,
+  isToc: false,
+  pageType: 'page'
+}</script><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="是min_yitian呀" type="application/atom+xml">
+</head><body><div id="web_bg" style="background-image: url(/img/2025-04-08_10.27.12.png);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/418883c358f97fb0a271d11a5172bc58.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/mod/"><i class="fa-fw fas fa-cube"></i><span> mod</span></a></div><div class="menus_item"><a class="site-page" href="/redstone/"><i class="fa-fw fas fa-star"></i><span> 红石生电</span></a></div><div class="menus_item"><a class="site-page" href="/vedio/"><i class="fa-fw fas fa-video"></i><span> 视频</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url(/img/2025-04-08_10.29.34.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/img/418883c358f97fb0a271d11a5172bc58.jpg" alt="Logo"><span class="site-name">是min_yitian呀</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/mod/"><i class="fa-fw fas fa-cube"></i><span> mod</span></a></div><div class="menus_item"><a class="site-page" href="/redstone/"><i class="fa-fw fas fa-star"></i><span> 红石生电</span></a></div><div class="menus_item"><a class="site-page" href="/vedio/"><i class="fa-fw fas fa-video"></i><span> 视频</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">mod</h1></div></header><main class="layout" id="content-inner"><div id="page"><div class="container" id="article-container"><h1 id="忠！诚！-附魔傀儡-犹意思恶魂-骨神法杖及骨质工具"><a href="#忠！诚！-附魔傀儡-犹意思恶魂-骨神法杖及骨质工具" class="headerlink" title="忠！诚！ 附魔傀儡  犹意思恶魂  骨神法杖及骨质工具"></a>忠！诚！ 附魔傀儡  犹意思恶魂  骨神法杖及骨质工具</h1><h2 id="mod获取"><a href="#mod获取" class="headerlink" title="mod获取"></a>mod获取</h2><p>不要忘了去b站支持up主啊啊！</p>
+<p>模组下载链接：<a target="_blank" rel="noopener" href="https://wwiu.lanzouu.com/i7DVC2sz55vc">下载</a>  密码 1k5z</p>
+<p>模组源码获取：[源码](<a target="_blank" rel="noopener" href="https://github.com/yi-tian-c/yitianQDHmod/tree/master">yi-tian-c&#x2F;yitianQDHmod at master</a>)  注意是master里面的内容，不是main</p>
+<p>模组依赖</p>
+<p>“fabricloader” : “&gt;&#x3D;0.15.11”,  “minecraft”: “~1.20.4” ,  “java”: “&gt;&#x3D;17”</p>
+<p>报错了先查版本</p>
+<h2 id="mod定位"><a href="#mod定位" class="headerlink" title="mod定位"></a>mod定位</h2><p>趣味向mod不考率游戏平衡</p>
+<h2 id="相关视频"><a href="#相关视频" class="headerlink" title="相关视频"></a>相关视频</h2><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1kMo8YuEmw/?spm_id_from=333.337.search-card.all.click&vd_source=f2f080426330e73e40eb6733ce18a9cf">没有人👻比我更加臣服骨神！？_哔哩哔哩bilibili_我的世界_游戏实况</a>   骨神法杖以及骨制工具</p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1xrZmYYEds/?spm_id_from=333.337.search-card.all.click&vd_source=f2f080426330e73e40eb6733ce18a9cf">“MC无限制自由格斗大赛”_哔哩哔哩bilibili_我的世界</a>   忠！诚！</p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1JnZbYNEG1/?spm_id_from=333.1387.homepage.video_card.click&vd_source=f2f080426330e73e40eb6733ce18a9cf">当我给铁傀儡做了附魔 👊😡🔥铁哥要战斗_我的世界</a>   附魔傀儡</p>
+<h2 id="模组介绍"><a href="#模组介绍" class="headerlink" title="模组介绍"></a>模组介绍</h2><h3 id="骨制工具及骨神法杖"><a href="#骨制工具及骨神法杖" class="headerlink" title="骨制工具及骨神法杖"></a>骨制工具及骨神法杖</h3><p>所有骨制工具和原版配方一致，基础材料为骨块</p>
+<p>骨剑攻击幼年生物可以使其直接长大，右键可以当作骨粉使用，攻击伤害6。</p>
+<p>骨制工具可以右键把对应的挖掘种类方块变成骨块。</p>
+<p>组合骨值工具拥有所有工具的效果，并且右键可以把周围的对应方块转化为骨块</p>
+<p>全套盔甲穿上会获得抗火以及速度效果，并且催熟附近作物</p>
+<p>骨神法杖</p>
+<p>骨神法杖可以通过矿石转化形态</p>
+<p>骨神法杖（绿）&#x3D;（紫）+ 绿宝石</p>
+<p>  右键长按召唤骷髅军团为你服务，右键生物骷髅军团将攻击此生物，骷髅军团免疫弓箭伤害</p>
+<p>骨神法杖（红）&#x3D;（绿）+ 萤石粉</p>
+<p>  右键长按吸取范围内生物生命，每次吸取自身恢复0.5点生命值</p>
+<p>骨神法杖（蓝）&#x3D;（红）+ 青金石</p>
+<p>  右键发射凋零骷髅头，爆炸后召唤一群凋零骷髅头从天而降</p>
+<p>骨神法杖（紫）&#x3D;（蓝）+ 紫水晶</p>
+<p>  右键蓄力发射威力巨大的魔法，造成极大破坏</p>
+<h3 id="附魔傀儡"><a href="#附魔傀儡" class="headerlink" title="附魔傀儡"></a>附魔傀儡</h3><p>铁傀儡附魔：机动</p>
+<p> 使用含有机动附魔的铁锭右键铁傀儡</p>
+<p>铁傀儡伤害提升6点，生命值提升至500点。攻击目标时会一跃而起产生爆炸。从高处落地产生大爆炸，速度越快爆炸越强。免疫爆炸</p>
+<p>雪傀儡附魔：连射</p>
+<p>使用含有连射附魔的雪球右键雪傀儡</p>
+<p>雪傀儡生命提升至48点，攻击无冷却，雪球击中目标1&#x2F;3概率产生小爆炸，1&#x2F;10概率产生大爆炸。免疫爆炸</p>
+<h3 id="忠！诚！"><a href="#忠！诚！" class="headerlink" title="忠！诚！"></a>忠！诚！</h3><p>使用含有“忠！诚！”附魔的骨头右键僵尸，骷髅，蜘蛛，坚守者可以将其转化为你的仆从</p>
+<p>“忠诚”效果：</p>
+<p>   共有效果：怪物不再攻击你，并且会主动攻击你所攻击的生物，免疫弓箭伤害</p>
+<p>   僵尸：装备警棍和盾牌。速度，攻击，攻击速度大幅提升。阻止燃烧</p>
+<p>   骷髅：攻击无冷却，获得力量二附魔弓，速度大幅提升。阻止燃烧</p>
+<p>   蜘蛛：速度，攻击，攻击速度大幅提升，会对攻击对象结网。</p>
+<p>   坚守者：无增益</p>
+<p>警棍</p>
+<p>  使用两块铁锭合成，右键长按可以对周围生物造成0.01伤害</p>
+<p>  放在副手，拥有“忠！诚！”附魔的怪物将无差别攻击周围生物（你除外）</p>
+<p>  附魔：一秒六棍  ：你可以远距离右键攻击生物（方便指挥你的军队）</p>
+<p>  附魔：重拳出击  ：右键长按召唤带有”忠！诚！”的僵尸，骷髅，蜘蛛</p>
+<h3 id="犹意思恶魂"><a href="#犹意思恶魂" class="headerlink" title="犹意思恶魂"></a>犹意思恶魂</h3><p>红方恶魂和黑方恶魂会相互攻击</p>
+<p>cppp右键把恶魂转化为红方，斯大林之星右键转变恶魂为红方领袖</p>
+<p>铁十字右键把恶魂转化为黑方，佛教符号右键转变恶魂为黑方领袖</p>
+<p>转化后的恶魂生命值提升至50，领袖生命值250</p>
+<p>黑方领袖技能：瞬移到目标身边，并召唤闪电攻击，群体加速</p>
+<p>红方领袖技能：天降火球造成大量伤害</p>
+</div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/418883c358f97fb0a271d11a5172bc58.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">是min_yitian呀</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/yi-tian-c" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="https://space.bilibili.com/3546852760750443" target="_blank" title="Bilibili"><i class="fab fa-bilibili" style="color: #00A1D6;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到我的博客</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/04/08/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B-1/" title="博客简介">博客简介</a><time datetime="2025-04-08T14:14:47.000Z" title="发表于 2025-04-08 22:14:47">2025-04-08</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E4%BB%8B%E7%BB%8D/" style="font-size: 1.1em; color: #999">介绍</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/04/">
+            <span class="card-archive-list-date">
+              四月 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">1</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-04-08T16:53:32.042Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2025 By 是min_yitian呀</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.3.5</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
